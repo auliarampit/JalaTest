@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux'
 
 import ShrimPrices from './shrimpPrices'
-// import regions from './regions'
+import regions from './regions'
 
 const appReducers = combineReducers({
     ShrimPrices,
-    // regions,
+    regions,
 })
 
 export default appReducers
